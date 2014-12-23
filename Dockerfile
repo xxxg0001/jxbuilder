@@ -35,4 +35,4 @@ WORKDIR /usr/dev_tools
 RUN chmod 777 *
 ENV PATH=$PATH:/usr/dev_tools:/usr/local/go/bin
 ENV GOPATH=/gocode
-
+RUN yum -y remove tar
